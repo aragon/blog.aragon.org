@@ -1,0 +1,37 @@
+{{!< default}}
+{{!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template --}}
+
+{{!-- The big featured header, it uses blog cover image as a BG if available --}}
+{{> navbar}}
+{{> secondary-navbar}}
+
+{{!-- The main content area --}}
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+        {{> featured}}
+        <div class="categories">
+          <h2 class="main-titles">Categories</h2>
+          {{#if @blog.navigation}}
+              {{navigation}}
+          {{/if}}
+        </div>
+        <div>
+          <div class="categories featured-feed">
+            <h2 class="main-titles">Collections</h2>
+            {{> collections}}
+          </div>
+        </div>
+        <div class="post-feed">
+            <h2 class="main-titles">Latest posts</h2>
+            {{#foreach posts}}
+
+                {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+                {{> "post-card"}}
+
+            {{/foreach}}
+        </div>
+
+    </div>
+</main>
+{{> footer}}
