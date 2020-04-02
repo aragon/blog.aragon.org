@@ -1,8 +1,8 @@
 {
-    "name": "aragon_casper",
+    "name": "aragon_casper-new",
     "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive, modified for 159.100.252.29.",
     "demo": "https://demo.ghost.io",
-    "version": "2.0",
+    "version": "3.0",
     "engines": {
         "ghost": ">=1.2.0"
     },

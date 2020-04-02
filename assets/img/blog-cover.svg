@@ -1,0 +1,21 @@
+<svg width="1440" height="553" viewBox="0 0 1440 553" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="553" fill="url(#paint0_linear)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="231" y="0" width="947" height="553">
+<rect x="231" width="947" height="553" fill="url(#paint1_linear)"/>
+</mask>
+<g mask="url(#mask0)">
+<path opacity="0.06" d="M681.48 631.009H352V301.529H681.48V631.009Z" fill="white"/>
+<path opacity="0.1" d="M1088 631.009H758.521V301.529H1088V631.009Z" fill="white"/>
+<path opacity="0.03" d="M681.48 224.48H352V-105H681.48V224.48Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="3356.61" y1="-682.321" x2="2976.94" y2="991.217" gradientUnits="userSpaceOnUse">
+<stop stop-color="#72BBFF"/>
+<stop offset="1" stop-color="#7270FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="2438.43" y1="-682.321" x2="1895.97" y2="890.215" gradientUnits="userSpaceOnUse">
+<stop stop-color="#72BBFF"/>
+<stop offset="1" stop-color="#7270FF"/>
+</linearGradient>
+</defs>
+</svg>

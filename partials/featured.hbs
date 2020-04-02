@@ -1,5 +1,5 @@
 {{#get "posts" filter="featured:true"}}
-  <div class="featured-feed">
+  <div class="featured-feed featured-posts-container">
       <h2 class="main-titles"></h2>
       {{#foreach posts}}
         <article class="post-card {{post_class}}{{#unless feature_image}} no-image{{/unless}}">
